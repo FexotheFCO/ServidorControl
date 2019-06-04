@@ -1,0 +1,10 @@
+C:\Users\agust\source\repos\ServidorPersonas\ServidorPersonas\obj\Debug\ServidorPersonas.csprojAssemblyReference.cache
+C:\Users\agust\source\repos\ServidorPersonas\ServidorPersonas\obj\Debug\ServidorPersonas.Form1.resources
+C:\Users\agust\source\repos\ServidorPersonas\ServidorPersonas\obj\Debug\ServidorPersonas.Properties.Resources.resources
+C:\Users\agust\source\repos\ServidorPersonas\ServidorPersonas\obj\Debug\ServidorPersonas.csproj.GenerateResource.cache
+C:\Users\agust\source\repos\ServidorPersonas\ServidorPersonas\obj\Debug\ServidorPersonas.csproj.CoreCompileInputs.cache
+C:\Users\agust\source\repos\ServidorPersonas\ServidorPersonas\bin\Debug\ServidorPersonas.exe.config
+C:\Users\agust\source\repos\ServidorPersonas\ServidorPersonas\bin\Debug\ServidorPersonas.exe
+C:\Users\agust\source\repos\ServidorPersonas\ServidorPersonas\bin\Debug\ServidorPersonas.pdb
+C:\Users\agust\source\repos\ServidorPersonas\ServidorPersonas\obj\Debug\ServidorPersonas.exe
+C:\Users\agust\source\repos\ServidorPersonas\ServidorPersonas\obj\Debug\ServidorPersonas.pdb
