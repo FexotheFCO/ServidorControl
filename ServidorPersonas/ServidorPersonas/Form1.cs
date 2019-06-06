@@ -42,5 +42,36 @@ namespace ServidorPersonas
             }
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BotonEnviar_Click(object sender, EventArgs e)
+        {
+            servidor.enviarPersona(new Persona("Agustin", "Torchia", "Masculino", 1));
+        }
+
+        private void ButtonCrearPersona_Click(object sender, EventArgs e)
+        {
+            panelCrearUsuario.Visible = true;
+        }
+
+        private void ButtonCancelarCrearPersona_Click(object sender, EventArgs e)
+        {
+            panelCrearUsuario.Visible = false;
+            textBoxApellido.Text = "";
+            textBoxNombre.Text = "";
+            comboBoxSexo.ResetText();
+        }
+
+        private void ButtonAgregarPersona_Click(object sender, EventArgs e)
+        {
+            if(!textBoxNombre.Text.Equals(null) && !textBoxApellido.Text.Equals(null) && !comboBoxSexo.Text.Equals(null))
+            {
+                control.agregarPersona(new Persona(textBoxNombre.Text, textBoxApellido.Text, comboBoxSexo.Text, 1));
+            }
+        }
     }
 }

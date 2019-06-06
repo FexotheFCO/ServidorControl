@@ -12,8 +12,8 @@ namespace ServidorPersonas
     {
         private string ip;
         private int port;
-        private string textoRecibido = "", texto = "";
-        private byte[] textoAEnviar, ByRec;
+        private string textoRecibido = "";
+        private byte[] ByRec;
         Socket socket = null;
         IPEndPoint miDireccion;
 
@@ -26,8 +26,6 @@ namespace ServidorPersonas
             this.ip = ip;
             this.port = port;
             this.textoRecibido = textoRecibido;
-            this.texto = texto;
-            this.textoAEnviar = textoAEnviar;
             ByRec = byRec;
             this.socket = socket;
             this.miDireccion = miDireccion;
@@ -36,8 +34,6 @@ namespace ServidorPersonas
         public string Ip { get => ip; set => ip = value; }
         public int Port { get => port; set => port = value; }
         public string TextoRecibido { get => textoRecibido; set => textoRecibido = value; }
-        public string Texto { get => texto; set => texto = value; }
-        public byte[] TextoAEnviar { get => textoAEnviar; set => textoAEnviar = value; }
         public byte[] ByRec1 { get => ByRec; set => ByRec = value; }
         public Socket Socket { get => socket; set => socket = value; }
         public IPEndPoint MiDireccion { get => miDireccion; set => miDireccion = value; }
@@ -64,7 +60,9 @@ namespace ServidorPersonas
 
         public void enviarPersona(Persona persona)
         {
-
+                string texto = persona.Id + "|" + persona.Nombre + "|" + persona.Apellido + "|" + persona.Sexo;
+                byte[] textoEnviar = Encoding.Default.GetBytes(texto);
+                socket.Send(textoEnviar, 0, textoEnviar.Length, 0);
         }
     }
 }
