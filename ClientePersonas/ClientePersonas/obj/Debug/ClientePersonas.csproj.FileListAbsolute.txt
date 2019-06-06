@@ -8,3 +8,13 @@ C:\Users\agust\source\repos\ClientePersonas\ClientePersonas\obj\Debug\ClientePer
 C:\Users\agust\source\repos\ClientePersonas\ClientePersonas\obj\Debug\ClientePersonas.csproj.CoreCompileInputs.cache
 C:\Users\agust\source\repos\ClientePersonas\ClientePersonas\obj\Debug\ClientePersonas.exe
 C:\Users\agust\source\repos\ClientePersonas\ClientePersonas\obj\Debug\ClientePersonas.pdb
+C:\Users\agust\Desktop\Repositorios\ServidorPersonas\ClientePersonas\ClientePersonas\bin\Debug\ClientePersonas.exe.config
+C:\Users\agust\Desktop\Repositorios\ServidorPersonas\ClientePersonas\ClientePersonas\bin\Debug\ClientePersonas.exe
+C:\Users\agust\Desktop\Repositorios\ServidorPersonas\ClientePersonas\ClientePersonas\bin\Debug\ClientePersonas.pdb
+C:\Users\agust\Desktop\Repositorios\ServidorPersonas\ClientePersonas\ClientePersonas\obj\Debug\ClientePersonas.csprojAssemblyReference.cache
+C:\Users\agust\Desktop\Repositorios\ServidorPersonas\ClientePersonas\ClientePersonas\obj\Debug\ClientePersonas.Form1.resources
+C:\Users\agust\Desktop\Repositorios\ServidorPersonas\ClientePersonas\ClientePersonas\obj\Debug\ClientePersonas.Properties.Resources.resources
+C:\Users\agust\Desktop\Repositorios\ServidorPersonas\ClientePersonas\ClientePersonas\obj\Debug\ClientePersonas.csproj.GenerateResource.cache
+C:\Users\agust\Desktop\Repositorios\ServidorPersonas\ClientePersonas\ClientePersonas\obj\Debug\ClientePersonas.csproj.CoreCompileInputs.cache
+C:\Users\agust\Desktop\Repositorios\ServidorPersonas\ClientePersonas\ClientePersonas\obj\Debug\ClientePersonas.exe
+C:\Users\agust\Desktop\Repositorios\ServidorPersonas\ClientePersonas\ClientePersonas\obj\Debug\ClientePersonas.pdb

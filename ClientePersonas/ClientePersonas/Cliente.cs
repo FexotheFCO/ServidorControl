@@ -8,7 +8,8 @@ namespace ClientePersonas
 {
     class Cliente
     {
-        private List<Persona> personas;
+        Coneccion coneccion = new Coneccion();
+        private List<Persona> personas = new List<Persona>();
 
         internal List<Persona> Personas { get => personas; set => personas = value; }
 
@@ -17,11 +18,17 @@ namespace ClientePersonas
             personas.Add(persona);
         }
 
-        public void recibirPersona(String persona)
+        public void recibirPersona()
         {
+            string persona = coneccion.recibirTexto();
             String[] personas2;
-            personas2 = persona.Split('/');
-            agregarPersona(new Persona(personas2[0], personas2[1], personas2[2],Int32.Parse(personas2[3])));
+            personas2 = persona.Split('|');
+            agregarPersona(new Persona(personas2[1], personas2[2], personas2[3],Int32.Parse(personas2[0])));
+        }
+
+        public void conectarConSV()
+        {
+            coneccion.conectarConServidor();
         }
     }
 }

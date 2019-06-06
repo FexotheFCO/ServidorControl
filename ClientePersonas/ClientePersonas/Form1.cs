@@ -12,7 +12,7 @@ namespace ClientePersonas
 {
     public partial class Form1 : Form
     {
-        Cliente cliente;
+        Cliente cliente = new Cliente();
         public Form1()
         {
             InitializeComponent();
@@ -25,10 +25,26 @@ namespace ClientePersonas
 
         private void actualizarDataGrid()
         {
+            dataGridView1.Rows.Clear();
             foreach(Persona persona in cliente.Personas)
             {
                 dataGridView1.Rows.Add(persona.Nombre,persona.Apellido,persona.Sexo);
             }
+        }
+
+        private void ButtonRefresh_Click(object sender, EventArgs e)
+        {
+            actualizarDataGrid();
+        }
+
+        private void ButtonRecibir_Click(object sender, EventArgs e)
+        {
+            cliente.recibirPersona();
+        }
+
+        private void ButtonConectarSV_Click(object sender, EventArgs e)
+        {
+            cliente.conectarConSV();
         }
     }
 }
